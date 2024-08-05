@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: white; 
+    width: 1200px;   
+}
+.navul{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+     
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: white;
+    padding: 20px;
+    display: none;
+}
+
+.div2{
+    background-color: black;
+    justify-content: center;
+}
+.btn1{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.btn2{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.btn3{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.div3{
+    background-color: black;
+}
+.div4{
+    background-color: black;
+}
+.btn4{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.btn5{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.btn6{
+    border-radius: 2em;
+    background: none;
+    color: white;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+
+}
+.div5{
+    background-color: black;
+}
+.div6{
+    background-color: black;
+}
+.div7{
+    background-color: black;
+}
+.div8{
+    background-color: black;
+}
+.div9{
+    background-color: black;
+}
+.div10{
+    background-color: black;
+}
+.div11{
+    background-color: black;
+}
+
+@media screen and (max-width:768px){
+
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navul{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
+
+}
+   
+
+@media screen and (max-width:425px){
+  
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navul{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:375px){
+  
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navul{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:320px){
+  
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .navul{
+        display:none;
+    }
+    .logo{
+        justify-content: center;
+    }
+}
